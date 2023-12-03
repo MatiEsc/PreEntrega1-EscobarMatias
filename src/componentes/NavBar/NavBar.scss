@@ -1,0 +1,29 @@
+.NavBar {
+    background-color: #f5ebe0 !important;
+    position: sticky;
+    top: 0;
+    font-size: 10px;
+    animation: enhance-header 0.4s linear both;
+}
+
+@keyframes enhance-header {
+    to {
+        font-size: 18px;
+        color: black;
+    }
+}
+
+.cartwidget {
+    display: flex;
+    align-items: center;
+
+    svg {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    p {
+        margin: 0;
+    }
+}
