@@ -6,7 +6,7 @@ const NavBar = () => {
         <nav className="navbar navbar-expand-lg bg-body-tertiary NavBar">
             <div className="container-fluid d-flex justify-content-between align-items-center fondo">
                 <a className="navbar-brand" href="#">
-                    Motz-Encantos
+                    <img className="logo" src="/public/img/logoMotz.jpeg" alt="Logo" />
                 </a>
                 <button
                     className="navbar-toggler"
